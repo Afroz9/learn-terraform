@@ -23,5 +23,5 @@ output "sample-ext" {
 
 variable "env" {}
 output "dev" {
-  value = var.rev
+  value = var.env
 }
