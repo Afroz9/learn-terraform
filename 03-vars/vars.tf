@@ -11,10 +11,10 @@ output "sample" {
 }
 
 output "sample1" {
-  value = "var.sample1"
+  value = var.sample1
 }
 
 
 output "sample-ext" {
-  value = "value of sample -${var.sample}"
+  value = "value of sample - ${var.sample}"
 }
