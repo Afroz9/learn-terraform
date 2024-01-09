@@ -18,3 +18,10 @@ output "sample1" {
 output "sample-ext" {
   value = "value of sample - ${var.sample}"
 }
+
+
+
+variable "env" {}
+output "dev" {
+  value = var.rev
+}
