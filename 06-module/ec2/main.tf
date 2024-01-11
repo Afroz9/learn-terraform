@@ -19,6 +19,7 @@ resource "aws_security_group" "sg" {
   name        = "sample"
   description = "Allow TLS inbound traffic"
 
+
   ingress {
     description      = "SSH"
     from_port        = 22
@@ -40,5 +41,3 @@ resource "aws_security_group" "sg" {
     Name = "sample"
   }
 }
-
-variable "sample" {}
