@@ -7,7 +7,7 @@ output "class" {
 }
 
 variable "fruits" {
-  default = ["apple" ,"banana", "orange"]
+  default = ["apple" , "banana", "orange"]
 }
 
 output "fruits_count" {
