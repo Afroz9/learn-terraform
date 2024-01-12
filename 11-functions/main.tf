@@ -11,5 +11,5 @@ variable "fruits" {
 }
 
 output "fruits_count" {
-  value = var.fruits
+  value = length(var.fruits)
 }
