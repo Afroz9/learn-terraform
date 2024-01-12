@@ -31,5 +31,5 @@ output "devops_practice" {
 }
 
 output "aws_topics" {
-  value = lookup(var.class, "aws", null )
+  value = lookup(var.classes, "aws", null )
 }
