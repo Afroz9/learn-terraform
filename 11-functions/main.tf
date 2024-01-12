@@ -20,17 +20,16 @@ variable "classes" {
       name   = "devops"
       topics = ["jenkins", "docker"]
     }
-      aws    = {
-        name = "aws"
-
-      }
+    aws    = {
+      name = "aws"
     }
   }
+}
 
 output "devops_practice" {
-  value = var.classes["devops"] ["topics"]
+  value = var.classes["devops"]["topics"]
 }
 
 output "aws_topics" {
-  value = var.classes["devops"] ["topics"]
+  value = var.classes["devops"]["topics"]
 }
