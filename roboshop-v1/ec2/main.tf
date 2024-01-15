@@ -25,7 +25,6 @@ resource "null_resource" "ansible" {
       "ansible-pull -i localhost, -U https://github.com/Afroz9/ansible-terraform main.yml -e env=dev -e role_name=${var.name}"
     ]
   }
-
 }
 
 resource "aws_route53_record" "www" {
