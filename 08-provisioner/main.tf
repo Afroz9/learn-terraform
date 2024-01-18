@@ -18,7 +18,7 @@ resource "aws_instance" "web" {
 
     inline = [
       "sudo labauto ansible",
-      "ansible-pull -i localhost, -U https://github.com/Afroz9/ansible-terraform main.yml -e env=dev -e role_name=frontend"
+      "ansible-pull -i localhost, -U https://github.com/Afroz9/roboshop-ansible main.yml -e env=dev -e role_name=frontend"
     ]
   }
 
