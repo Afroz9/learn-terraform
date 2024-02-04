@@ -7,16 +7,16 @@ module "instance" {
 variable "instance" {
   default = {
 
-    frontend = {}
-    mongodb = {}
+    frontend  = {}
+    mongodb   = {}
     catalogue = {}
-    redis = {}
-    user = {}
-    cart = {}
-    shipping = {}
-    rabbitmq = {}
-    mysql = {}
-    payment = {}
+    redis     = {}
+    user      = {}
+    cart      = {}
+    shipping  = {}
+    rabbitmq  = {}
+    mysql     = {}
+    payment   = {}
 
   }
 }
